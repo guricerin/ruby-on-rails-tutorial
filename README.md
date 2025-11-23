@@ -19,7 +19,7 @@
 以下の作業が必要かも。
 
 ```sh
-sudoo apt upgrade
+sudo apt upgrade
 sudo apt install zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libffi-dev
 ```
 
