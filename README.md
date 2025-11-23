@@ -33,14 +33,21 @@ Railsサーバーが立ち上がり、シンプルブラウザが表示される
 
 次に、データベースへのマイグレーションを実行します。
 
-```
-$ rails db:migrate
+```sh
+rails db:migrate
 ```
 
 最後に、テストを実行してうまく動いているかどうか確認してください。
 
+```sh
+rails test
 ```
-$ rails test
+
+ファイルの変更を検知して自動で`rails test`を実行するには別のシェルで以下を実行。
+
+```sh
+bundle exec guard
+# 停止するには Ctrl + D
 ```
 
 詳しくは、[*Ruby on Rails チュートリアル*](https://railstutorial.jp/)
