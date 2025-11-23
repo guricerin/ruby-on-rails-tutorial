@@ -12,7 +12,7 @@ gem "stimulus-rails",  "1.2.1"
 gem "jbuilder",        "2.11.5"
 gem "puma",            "6.6.1"
 gem "bootsnap",        "1.16.0", require: false
-gem "sqlite3",         "1.6.1"
+gem "sqlite3",         "2.8.0"
 gem "concurrent-ruby", "1.3.4"
 
 group :development, :test do
