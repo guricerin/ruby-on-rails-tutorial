@@ -10,5 +10,5 @@ class User < ApplicationRecord
     uniqueness: true,
   )
   # メアドは大文字小文字を区別すべきではない
-  before_save { self.email = email.downcase }
+  before_save { self.email.downcase! }
 end
