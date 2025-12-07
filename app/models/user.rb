@@ -14,4 +14,5 @@ class User < ApplicationRecord
   # Userクラスにpassword, password_confirmation属性が強制的に追加される
   # なお、DBのusersテーブルにはpassword_digestカラムが必要
   has_secure_password
+  validates(:password, presence: true, length: { minimum: 6 })
 end
