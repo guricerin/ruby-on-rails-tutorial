@@ -375,7 +375,7 @@ GEM
       unicode-emoji (~> 4.1)
     unicode-emoji (4.1.0)
     useragent (0.16.11)
-    web-console (4.2.0)
+    web-console (4.2.1)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
       bindex (>= 0.4.0)
@@ -433,7 +433,7 @@ DEPENDENCIES
   sqlite3 (= 1.6.1)
   stimulus-rails (= 1.2.1)
   turbo-rails (= 1.4.0)
-  web-console (= 4.2.0)
+  web-console (= 4.2.1)
   webdrivers (= 5.2.0)
 
 RUBY VERSION
