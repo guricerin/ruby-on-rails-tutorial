@@ -11,4 +11,7 @@ class User < ApplicationRecord
   )
   # メアドは大文字小文字を区別すべきではない
   before_save { self.email.downcase! }
+  # Userクラスにpassword, password_confirmation属性が強制的に追加される
+  # なお、DBのusersテーブルにはpassword_digestカラムが必要
+  has_secure_password
 end
